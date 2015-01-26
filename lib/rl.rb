@@ -25,7 +25,7 @@ class RL
   )
 
   LEFTS = %W(
-    ~! @ # $ %
+    ~ ! @ # $ %
     ` 1 2 3 4 5
     Q W E R T
     q w e r t
