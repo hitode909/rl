@@ -7,8 +7,8 @@ all_rights = []
 ARGF.each_line{|line|
   term = line.chomp
   l, r = *(rl.detect term)
-  all_rights << term if r == 0
-  all_lefts << term if l == 0
+  all_rights << term if l == 0
+  all_lefts << term if r == 0
 }
 
 puts '## All rights'
